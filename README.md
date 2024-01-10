@@ -35,5 +35,6 @@ Ensure you have Node.js and npm installed on your machine.
 Clone this repository to your local machine.
 Navigate to the project directory in the terminal.
 Run npm install to install the necessary dependencies.
-Run npm start to start the development server.
-Open your browser and visit http://localhost:3000 to view the application.
+Run npm audit fix, depending on whether the terminal asks you to address vulnerabilities
+Run npm run dev to start the development server.
+Copy the link from the "Local" option and paste it into your web browser to view the application.
