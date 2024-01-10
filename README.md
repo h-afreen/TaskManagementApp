@@ -1,13 +1,17 @@
-## Running React on Repl.it
-
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
-
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.tsx](#src/App.tsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+Task Management Application 
+To run the application please follow the steps below: 
+- If you do not already have node js installed in your computer, you 
+would need to visit https://nodejs.org/en/download and choose the package
+suitable for your operating device
+- run the npm install package
+- In your terminal type the following commands: 
+    install npm
+    npm create vite
+    y
+    project name: vite-project
+    Select framework : React
+    Select a variant: TypeScript
+    cd vite-project
+    npm install 
+    npm run dev
+- Next, copy the link from the "Local" option and paste into your web browser
