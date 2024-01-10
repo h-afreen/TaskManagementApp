@@ -29,6 +29,7 @@ Styling (Optional)
 Styling is optional but can be added to make the application visually appealing. You have the flexibility to use CSS or styling libraries like styled-components to enhance the user interface.
 
 Running the Application
+
 To run the Task Management Application:
 
 Ensure you have Node.js and npm installed on your machine.
