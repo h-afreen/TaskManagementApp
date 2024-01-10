@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #D8BFD8;
+}
+
+/* Add a container to center the content */
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Add this to enable vertical scrolling */
+    flex-grow: 1; /* Allow the container to grow */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Container for tasks above the title and description */
+.tasks-container {
+    max-width: 800px; /* Adjust the max-width based on your design */
+    margin: 0 auto;
+    padding: 25px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto; /* Add this to enable vertical scrolling */
+    flex-grow: 1; /* Allow the container to grow */
+}
+
+/*creates space between the "Things to do:"" line and the input*/
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for title and description */
+    grid-gap: 10px; /* Spacing between grid items */
+    grid-template-rows: repeat(2, auto); /* Two rows for date, time, and button */
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+/* Style title and description inputs */
+#title,
+#description {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style date and time inputs */
+#date,
+#time {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px; /* Add space between date and time */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    grid-column: span 2; /* Button spans two columns */
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
