@@ -10,4 +10,3 @@ interface Task {
 }
 
 export default Task;
-/**  blah bla blah*/
