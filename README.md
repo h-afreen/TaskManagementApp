@@ -27,3 +27,4 @@ TypeScript Tips:
 Use TypeScript interfaces to define the types for props and state in each component.
 Leverage generics for reusable components or functions.
 Ensure that your components are type-safe, and the TypeScript compiler helps catch potential errors. 
+##
